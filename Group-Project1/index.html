@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link main custom CSS style sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>PROJECT 1 TITLE</title>
+</head>
+
+<body>
+    
+    <header id="header">
+        <h1>our anime project title!!</h1>
+    </header>
+
+    <section id="search-container">
+        <!-- search stuff goes here -->
+
+        <!-- search bar and button form -->
+        <form id="search-bar-form">
+            <label class="form-label" for="anime-title">Search an anime title: </label>
+            <input name="anime-title" id="anime-title" type="text" autofocus="true" />
+            <button type="submit" >Get More Info</button>
+            <button type="button" id="clear-history">Clear Search History</button>
+            <button id = "random-button" type="random" >Get a Random Anime!</button>
+        </form>
+
+        <!-- dynamically display search results -->
+        <div id="search-bar-results"></div>
+
+    </section>
+
+    <section id="button-container">
+        <!-- button stuff goes here -->
+    </section>
+
+    <section id="recently-added-container">
+        <!-- 5 of the most recently added anime -->
+    </section>
+
+    <!-- link main custon JS sheet -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/searchbar.js"></script>
+    
+</body>
+
+</html>
